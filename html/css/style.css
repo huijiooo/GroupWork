@@ -381,5 +381,170 @@ h2.title_h2::before {
 .digital li:hover {
     opacity: .5;
 }
+/*join us botton and word*/
+.joinUsDvi {
+    padding: 60px 0;
+    text-align: center;
+}
+.joinUsDvi p {
+    color: #7B4A00;
+    font-weight: bold;
+    font-size: 30px;
+}
+.joinUsDvi a {
+    display: block;
+    width: 120px;
+    line-height: 45px;
+    margin: 20px auto;
+    text-align: center;
+    background: #f89e1c;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 25px;
+}
+.joinUsDvi a:hover {
+    opacity: .5;
+    transition: .7s;
+}
+/*join us botton and word*/
 
 
+/*products_details.html*/
+.details_1 .box {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+/* product picture*/
+.details_1 .box .left {
+    border: 2px solid #222222; /* border*/
+}
+
+.details_1 .box h3 {
+    font-size: 40px;/*Follow these steps*/
+}
+
+.details_1 .box ul.tt {
+    display: flex;
+    gap: 40px;
+    margin: 20px 0;
+}
+
+.details_1 .box li {
+    background: #febd03;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+.details_1 .box li img {
+    height: 44px;
+}
+
+.details_1 .box .text p {
+    color: #B06A00;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+
+.details_1 .box .pp {
+    display: flex;
+    margin: 20px 0;
+    gap: 50px;
+}
+
+.details_1 .box .pp .price {
+    font-size: 24px;
+    color: #6A4001;
+}
+
+.details_1 .box .pp button {
+    background: #feb700;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 22px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.details_2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details_2 .left {
+    width: 74%;
+}
+
+.details_2 .left h4 {
+    font-size: 40px; /*Ingredients*/
+}
+/*Food ingredient*/
+.details_2 .left ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 40px 0;
+}
+
+.details_2 .left li {
+    text-align: center;
+}
+
+.details_2 .left li p {
+    color: #6A4001;
+}
+
+/*Cooking time and Need to prepare*/
+.details_2 .right {
+    width: 33%;
+    border-left: 2px solid #222222;
+    padding-left: 40px;
+}
+
+.details_2 .right h4 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.details_2 .right p {
+    color: #7B4A00;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.details_2 .right h4.mt100 {
+    margin-top: 80px;
+}
+
+/* cooking step*/
+.details_3 h3 {
+    font-size: 40px;
+}
+
+.details_3 ul {
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.details_3 li {
+    width: 29%;
+    border: 2px solid #222222;
+}
+
+.details_3 li img {
+    width: 100%;
+}
+
+.details_3 li p {
+    color: #6A4001;
+    padding: 15px;
+}
+/*finish the products_details page */
