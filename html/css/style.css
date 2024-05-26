@@ -1,0 +1,14 @@
+*{padding: 0;margin: 0;box-sizing: border-box;} /*Global style reset*/
+ul li{list-style: none;}/*List style reset*/
+ol li{list-style: none;}
+.solid{border: 1px solid red;}/*Border style*/
+a{text-decoration: none; color: black;}/*Link style*/
+.pw{
+    width: 1200px;
+    margin: 0 auto;
+}/*Page width and center*/
+
+.fl{float: left;}
+.fr{float: right;}
+.cn{margin: 0 auto;}/*Floating layout*/
+.clearF::after{content: " ";display: block;clear: both;}/*Clear float*/
