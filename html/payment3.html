@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" href="css/style.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="css/style_mobile.css" media="(max-width: 768px)">
 </head>
+
 <body>
+<!--mobile device Collapse navigation bar-->
+    <header class="mobile_box">
+        <div class="header_left">
+            <img src="images/mobile/menu.png" alt="">
+        </div>
+        <div class="header_center">
+            <a href="index.html"><img class="logo1" src="images/logo.png" alt=""></a>
+            <img class="logo2" src="images/logo2.png" alt="">
+        </div>
+        <div class="header_right">
+            <a class="cart cart2">
+                <img src="images/icon_cart.png" alt="">
+                <p>Shopping Cart</p>
+            </a>
+        </div>
+    </header>
+
     <!--Step 1, 2, and 3 progress bars above-->
-    <header>
+    <header class="pc_box">
         <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
         <ul class="payment_nav">
             <li class="number">
@@ -29,7 +50,24 @@
     </header>
     <!--Step 1, 2, and 3 progress bars above-->
     
-    
+    <!--mobile device step line -->
+    <ul class="payment_nav mobile_box">
+        <li class="number">
+            <span>1</span>
+            <p>INFORMATION</p>
+        </li>
+        <li class="solid"><img src="images/pay1.png" alt=""></li>
+        <li class="number">
+            <span>2</span>
+            <p>SHIPPING</p>
+        </li>
+        <li class="solid"><img src="images/pay1.png" alt=""></li>
+        <li class="number">
+            <span class="xz">3</span>
+            <p>PAYMENT</p>
+        </li>
+    </ul>
+
     <section>
         <!--SHIPPING INFORMATION-->
         <div class="payment_box pw">
@@ -116,4 +154,5 @@
     <!--right - shopping cart part-->
     </section>
 </body>
+<script src="script.js"></script>
 </html>
