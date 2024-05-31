@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport"
     content="width=device-width, initial-scale=1.0,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <!--Make sure the page can accommodate different sizes-->
     <title></title>
     <link rel="stylesheet" href="css/style.css" media="(min-width: 768px)">
     <link rel="stylesheet" href="css/style_mobile.css" media="(max-width: 768px)">
@@ -22,41 +23,44 @@
     </header> <!--try to add the words and images and link to different page of the Navigation bar -->
    
      <!--The contents of the mobile foldable navigation bar-->
-    <header class="mobile_box">
+     <header class="mobile_box"><!--mobile device's header-->
         <div class="header_left">
-            <img src="images/mobile/menu.png" alt="">
+            <img src="images/mobile/menu.png" alt=""><!--Compressed navigation bar ICONS-->
         </div>
         <div class="header_center">
-            <a href="index.html"><img class="logo1" src="images/logo.png" alt=""></a>
-            <img class="logo2" src="images/logo2.png" alt="">
+            <a href="index.html"><img class="logo1" src="images/logo.png" alt=""></a><!--logo icon-->
+            <img class="logo2" src="images/logo2.png" alt=""><!--'austrial's best grocery store'-->
         </div>
         <div class="header_right">
             <a class="cart cart2">
-                <img src="images/icon_cart.png" alt="">
+                <img src="images/icon_cart.png" alt=""><!--shopping cart icon-->
                 <p>Shopping Cart</p>
             </a>
         </div>
     </header>
-
     <div class="menu_hezi_box mobile_box">
+        <!-- <img class="cha" src="images/mobile/cha.png" alt=""> -->
         <div class="title">
-            <img class="title1" src="images/mobile/title1.png" alt="">
-            <img class="title2" src="images/mobile/title2.png" alt="">
-            <img class="title3" src="images/mobile/title3.png" alt="">
+            <img class="title1" src="images/mobile/title1.png" alt=""><!--welcome to-->
+            <img class="title2" src="images/mobile/title2.png" alt=""><!--logo icon-->
+            <img class="title3" src="images/mobile/title3.png" alt=""><!--'austrial's best grocery store'-->
         </div>
+        <!--footer in the navigation bar-->
         <ul class="prodicts">
             <li class="products1"><a href="products.html"><img src="images/mobile/products1.png" alt="">
-                    <span>Products</span></a>
+                    <span>Products</span></a><!--link to the product page-->
             </li>
             <li class="products2"><a href="payment.html"><img src="images/mobile/products2.png" alt="">
-                <span>Purchase</span></a></li>
+                <span>Purchase</span></a><!--link to the payment page-->
+            </li>
             <li class="products3"><a href="ourStory.html"><img src="images/mobile/products3.png" alt="">
-                <span>Abouts us</span></a></li>
+                <span>Abouts us</span></a><!--link to the ourstory page-->
+            </li>
         </ul>
         <div class="login_boxx">
             <h1>
                 Wanna join us ?
-            </h1><a href="login.html">
+            </h1><a href="login.html"><!--link to the login page-->
                 <div class="login_btn">
                     Login
                 </div>
@@ -70,12 +74,12 @@
         </div>
     </div>
 
-
+<!--shopping cart part-->
     <div class="shoppingCart" id="cart-list">
         <h3>Shopping Cart <img src="images/icon_cart.png" alt=""></h3>
         <ul>
             <li>
-                <div class="img">
+                <div class="img"><!--first product information-->
                     <img src="images/cart1.png" alt="">
                     <p>
                         <img src="images/Group67.png" alt="">
@@ -85,7 +89,7 @@
                 <div class="text">
                     <h4>Royal Festival Briyani Rice</h4>
                     <p>Qty</p>
-                    <select name="">
+                    <select name=""><!--change the number of the product-->
                         <option value="">1</option>
                         <option value="">2</option>
                         <option value="">3</option>
@@ -96,7 +100,7 @@
                 </div>
             </li>
             <li>
-                <div class="img">
+                <div class="img"><!--second product-->
                     <img src="images/cart2.png" alt="">
                     <p>
                         <img src="images/Group67.png" alt="">
@@ -106,7 +110,7 @@
                 <div class="text">
                     <h4>Chilli & Lime Aioli 240g</h4>
                     <p>Qty</p>
-                    <select name="">
+                    <select name=""><!--change the number of the product-->
                       <option value="">1</option>
                       <option value="">2</option>
                       <option value="">3</option>
@@ -117,12 +121,13 @@
                 </div>
             </li>
         </ul>
+        <!--link to the pagment page-->
         <p class="title">Total (before delivery): <span>AUD$21.49</span></p>
         <a class="goShop" href="payment.html">View bag & checkout </a>
 </div>
-
+<!--homepage content-->
 <section>
-    <div class="gourment pw pc_box">
+    <div class="gourment pw pc_box"><!--pc device fisrt page-->
         <div class="text">
             <h2>Gourmet Grocery</h2>
             <p>
@@ -135,7 +140,7 @@
         </div>
         <img src="images/index1.png" alt="">
     </div>
-    <div class="gourment mobile_box">
+    <div class="gourment mobile_box"><!--mobile device first page-->
         <h2>Gourmet Grocery</h2>
         <img src="images/index1.png" alt="">
         <p>
@@ -143,11 +148,11 @@
             customers to enjoy the taste of fine
             dining at home.
         </p>
-        <a href="products.html" class="more">Products <img src="images/Vector4.png" alt=""></a>
+        <a href="products.html" class="more">Products <img src="images/Vector4.png" alt=""></a><!--link to the product page-->
     </div>
 
     <img src="images/group.png" class="partition" alt="">
-    <div class="gourment pw pc_box">
+    <div class="gourment pw pc_box"><!--pc device second page-->
         <div class="text">
             <h2>Specialities Band Products</h2>
             <p>
@@ -156,12 +161,12 @@
                 Ensuring quality while supporting the
                 local economy.
             </p>
-            <a href="payment.html" class="more">Purchase <img src="images/Vector4.png" alt=""></a>
+            <a href="payment.html" class="more">Purchase <img src="images/Vector4.png" alt=""></a><!--link to the pagment page-->
             <!--link the payment page-->
         </div>
         <img src="images/index2.png" alt="">
     </div>
-    <div class="gourment mobile_box">
+    <div class="gourment mobile_box"><!--mobile device second page-->
         <h2>Specialities Band Products</h2>
         <img src="images/index2.png" alt="">
         <p>
@@ -170,11 +175,11 @@
             Ensuring quality while supporting the
             local economy.
         </p>
-        <a href="payment.html" class="more">Purchase <img src="images/Vector4.png" alt=""></a>
+        <a href="payment.html" class="more">Purchase <img src="images/Vector4.png" alt=""></a><!--link to the payment page-->
     </div>
     <img src="images/group.png" class="partition" alt="">
     
-    <ul class="choose_us pw">
+    <ul class="choose_us pw"><!--third page why choose us part-->
         <li>
             <h2>Why Choose Us</h2>
         </li>
@@ -212,7 +217,7 @@
     </ul>
 
     <img src="images/group.png" class="partition" alt="">
-    <div class="australis pw pc_box">
+    <div class="australis pw pc_box"><!--pc device fourth page-->
         <img src="images/index3.png" alt="">
         <div class="center">
             <h3>Australia's Best Food Grocery</h3>
@@ -220,12 +225,12 @@
                 Join us for a perfect and convenient food <br>
                 shopping experience!
             </p>
-            <a href="products.html">Start Shopping</a>
+            <a href="products.html">Start Shopping</a><!--link to the product page-->
         </div>
         <img src="images/index4.png" alt="">
     </div>
     <!--third page mobile device-->
-    <div class="australis  mobile_box">
+    <div class="australis  mobile_box"><!--mobile device fourth page-->
 
         <h3>Australia's Best Food Grocery</h3>
         <p>
@@ -233,9 +238,9 @@
             shopping experience!
         </p>
         <div class="center">
-            <img src="images/mobile/lb.png" alt="">
-            <a href="products.html">Start Shopping</a>
-            <img src="images/mobile/qz.png" alt="">
+            <img src="images/mobile/lb.png" alt=""><!--image of radish-->
+            <a href="products.html">Start Shopping</a><!--link to the product page-->
+            <img src="images/mobile/qz.png" alt=""><!--image of 🍆-->
         </div>
     </div>
 </section>
