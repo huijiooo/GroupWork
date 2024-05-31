@@ -723,5 +723,86 @@ h2.title_h2::before {
     color: #6A4001;
     padding: 15px;
 }
+/*our Story*/
+/* .login_boxx h1{
+    font-size: 20px;
+} */
+.ourStory_title {
+    text-align: center;
+    font-size: 30px;
+    color: #4D4537;
+    padding: 10px 0 20px;
+}
+
+.ourStory_1 {
+    width: 80vw;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 40px;
+}
+
+.ourStory_1 .text {
+    width: 100%;
+}
+
+.ourStory_1 .text h3 {
+    padding: 0;
+}
+
+.ourStory_1 .text em {
+    color: #4D4537;
+    text-align: center;
+    line-height: 2em;
+    display: block;
+    padding: 20px 0;
+}
+
+.ourStory_1 .text p {
+    color: #AB7B07;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    gap: 40px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.ourStory_1 .img {
+    width: 100%;
+}
+
+.ourStory_1 .img img {
+    width: 100%;
+}
+
+.ourStory_2 .box .img {
+    width: 100%;
+}
+
+.ourStory_2 .box .img img {
+    width: 100%;
+}
+
+.ourStory_2 .box .text {
+    width: 100%;
+    padding: 20px 40px;
+    color: #B06A00;
+    text-align: center;
+}
+
+.ourStory_3 {
+    padding-bottom: 70px;
+}
+
+.ourStory_3 .img_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ourStory_3 .img_box img {
+    width: 30%;
+}
 
 
