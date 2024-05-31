@@ -391,3 +391,133 @@ h2.title_h2::before {
 .products_nav .this_nav li img {
     width: 8px;
 }
+
+.commodity_list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* gap:3%; */
+}
+
+.commodity_list li {
+    border: 1px solid #222222;
+    padding: 5px;
+    width: 43.5%;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+
+.commodity_list li>img {
+    display: block;
+    margin: 10px auto;
+    height: 150px;
+}
+
+.commodity_list li p {
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+}
+
+.commodity_list li p img {
+    position: absolute;
+    top: -30px;
+}
+
+.commodity_list li .price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+
+.commodity_list li .price span em {
+    color: #ff0900;
+    font-style: normal;
+}
+
+.commodity_list li .price a {
+    background: #fed006;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.digital {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 10px auto 50px;
+}
+
+.digital li {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #e8a048;
+    cursor: pointer;
+}
+
+.digital li img {
+    height: 100%;
+}
+
+.digital li span {
+    display: block;
+    background: #e8a048;
+    color: #222222;
+}
+
+.digital li span.sz {
+    font-size: 13px;
+}
+
+.digital li span.xz {
+    color: #ffffff;
+}
+
+.digital li:hover {
+    opacity: .5;
+}
+
+.success_shop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.success_shop .success_box {
+    width: 200px;
+    height: 60px;
+    border: 2px solid #222222;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: success_animal .7s ease-in-out;
+}
+
+@keyframes success_animal {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
