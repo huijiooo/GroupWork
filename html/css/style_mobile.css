@@ -408,6 +408,12 @@ h2.title_h2::before {
 }
 
 
+.commodity_list li a>img {
+    display: block;
+    margin: 10px auto;
+    height: 150px;
+}
+
 .commodity_list li>img {
     display: block;
     margin: 10px auto;
@@ -604,6 +610,7 @@ h2.title_h2::before {
     width: 44px;
 }
 
+.details_1 .box .text {}
 
 .details_1 .box .text p {
     color: #B06A00;
