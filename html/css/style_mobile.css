@@ -691,5 +691,37 @@ h2.title_h2::before {
 .details_2 .right h4.mt100 {
     margin-top: 10px;
 }
+.details_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.details_3 h3 {
+    font-size: 20px;
+}
+
+.details_3 ul {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.details_3 li {
+    width: 80%;
+    border: 1px solid #222222;
+}
+
+.details_3 li img {
+    width: 100%;
+}
+
+.details_3 li p {
+    color: #6A4001;
+    padding: 15px;
+}
 
 
