@@ -6,6 +6,7 @@
     <title></title>
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <!--Make sure the page can accommodate different sizes-->
     <link rel="stylesheet" href="css/style.css" media="(min-width: 768px)">
     <link rel="stylesheet" href="css/style_mobile.css" media="(max-width: 768px)">
 </head>
@@ -24,12 +25,13 @@
         </ul>
     </header> -->
 
+<!--Mobile foldable navigation bar-->
     <header class="mobile_box">
         <div class="header_left">
             <img src="images/mobile/menu.png" alt="">
         </div>
         <div class="header_center">
-            <a href="index.html"><img class="logo1" src="images/logo.png" alt=""></a>
+            <a href="index.html"><img class="logo1" src="images/logo.png" alt=""></a><!--back to the homepage-->
             <img class="logo2" src="images/logo2.png" alt="">
         </div>
         <div class="header_right">
@@ -40,6 +42,7 @@
         </div>
     </header>
   
+    <!--step bar-->
     <header class="pc_box">
         <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
         <ul class="payment_nav">
@@ -47,15 +50,17 @@
                 <span class="xz">1</span>
                 <p>INFORMATION</p>
             </li>
+            <a href="payment2.html"><!--turn to the next step-->
             <li class="solid"><img src="images/pay1.png" alt=""></li>
             <li class="number">
                 <span>2</span>
-                <p>SHIPPING</p>
+                <p>SHIPPING</p></a>
             </li>
+            <a href="payment3.html"><!--turn to the next nxet(third)page-->
             <li class="solid"><img src="images/pay1.png" alt=""></li>
             <li class="number">
                 <span>3</span>
-                <p>PAYMENT</p>
+                <p>PAYMENT</p></a>
             </li>
         </ul>
     </header>
@@ -66,15 +71,19 @@
             <span class="xz">1</span>
             <p>INFORMATION</p>
         </li>
-        <li class="solid"><img src="images/pay1.png" alt=""></li>
+        <a href="payment2.html"><!--turn to the next step-->
+        <li class="solid">
+        <img src="images/pay1.png" alt=""></li>
         <li class="number">
             <span>2</span>
-            <p>SHIPPING</p>
+            <p>SHIPPING</p></a>
         </li>
-        <li class="solid"><img src="images/pay1.png" alt=""></li>
+        <a href="payment3.html"><!--turn to the next nxet(third)page-->
+        <li class="solid">
+        <img src="images/pay1.png" alt=""></li>
         <li class="number">
             <span>3</span>
-            <p>PAYMENT</p>
+            <p>PAYMENT</p></a>
         </li>
     </ul>
 
@@ -114,17 +123,17 @@
         </div>
          <!--payment form-->
 
-         <!--right - shopping cart part-->
+         <!--shopping cart part-->
         <div class="right">
             <ul>
                 <li>
                     <div class="img">
                         <img src="images/cart1.png" alt="">
                     </div>
-                    <div class="text">
+                    <div class="text"><!--first product information-->
                         <h4>Royal Festival Briyani Rice</h4>
                         <p>Qty</p>
-                        <select name="">
+                        <select name=""><!--change the number of the product-->
                             <option value="">1</option>
                             <option value="">2</option>
                             <option value="">3</option>
@@ -136,13 +145,13 @@
                     </div>
                 </li>
                 <li>
-                    <div class="img">
+                    <div class="img"><!--second product information-->
                         <img src="images/cart2.png" alt="">
                     </div>
                     <div class="text">
                         <h4>Chilli & Lime Aioli 240g</h4>
                         <p>Qty</p>
-                        <select name="">
+                        <select name=""><!--change the number of the product-->
                             <option value="">1</option>
                             <option value="">2</option>
                             <option value="">3</option>
@@ -164,5 +173,6 @@
     </div>
     </section>
 </body>
+<!--link to the js file-->
 <script src="script.js"></script>
 </html>

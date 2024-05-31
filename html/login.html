@@ -6,6 +6,7 @@
     <title></title>
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <!--Make sure the page can accommodate different sizes-->
     <link rel="stylesheet" href="css/style.css" media="(min-width: 768px)">
     <link rel="stylesheet" href="css/style_mobile.css" media="(max-width: 768px)">
 </head>
@@ -23,17 +24,17 @@
         </ul>
     </header>   
 <!--Navigation bar on the mobile phone-->
-    <header class="mobile_box">
+    <header class="mobile_box"><!--mobile device's header-->
         <div class="header_left">
-            <img src="images/mobile/menu.png" alt="">
+            <img src="images/mobile/menu.png" alt=""><!--Compressed navigation bar ICONS-->
         </div>
         <div class="header_center">
-            <a href="index.html"><img class="logo1" src="images/logo.png" alt=""></a>
-            <img class="logo2" src="images/logo2.png" alt="">
+            <a href="index.html"><img class="logo1" src="images/logo.png" alt=""></a><!--logo icon-->
+            <img class="logo2" src="images/logo2.png" alt=""><!--'austrial's best grocery store'-->
         </div>
         <div class="header_right">
             <a class="cart cart2">
-                <img src="images/icon_cart.png" alt="">
+                <img src="images/icon_cart.png" alt=""><!--shopping cart icon-->
                 <p>Shopping Cart</p>
             </a>
         </div>
@@ -41,23 +42,26 @@
     <div class="menu_hezi_box mobile_box">
         <!-- <img class="cha" src="images/mobile/cha.png" alt=""> -->
         <div class="title">
-            <img class="title1" src="images/mobile/title1.png" alt="">
-            <img class="title2" src="images/mobile/title2.png" alt="">
-            <img class="title3" src="images/mobile/title3.png" alt="">
+            <img class="title1" src="images/mobile/title1.png" alt=""><!--welcome to-->
+            <img class="title2" src="images/mobile/title2.png" alt=""><!--logo icon-->
+            <img class="title3" src="images/mobile/title3.png" alt=""><!--'austrial's best grocery store'-->
         </div>
+        <!--footer in the navigation bar-->
         <ul class="prodicts">
             <li class="products1"><a href="products.html"><img src="images/mobile/products1.png" alt="">
-                    <span>Products</span></a>
+                    <span>Products</span></a><!--link to the product page-->
             </li>
             <li class="products2"><a href="payment.html"><img src="images/mobile/products2.png" alt="">
-                <span>Purchase</span></a></li>
+                <span>Purchase</span></a><!--link to the payment page-->
+            </li>
             <li class="products3"><a href="ourStory.html"><img src="images/mobile/products3.png" alt="">
-                <span>Abouts us</span></a></li>
+                <span>Abouts us</span></a><!--link to the ourstory page-->
+            </li>
         </ul>
         <div class="login_boxx">
             <h1>
                 Wanna join us ?
-            </h1><a href="login.html">
+            </h1><a href="login.html"><!--link to the login page-->
                 <div class="login_btn">
                     Login
                 </div>
@@ -70,12 +74,12 @@
             <img style="width: 100%;" src="images/foot_icon2.png" alt="">
         </div>
     </div>
-
+<!--shopping car part-->
     <div class="shoppingCart" id="cart-list">
         <h3>Shopping Cart <img src="images/icon_cart.png" alt=""></h3>
         <ul>
             <li>
-                <div class="img">
+                <div class="img"><!--first product information-->
                     <img src="images/cart1.png" alt="">
                     <p>
                         <img src="images/Group67.png" alt="">
@@ -85,7 +89,7 @@
                 <div class="text">
                     <h4>Royal Festival Briyani Rice</h4>
                     <p>Qty</p>
-                    <select name="">
+                    <select name=""><!--change the number of the product-->
                         <option value="">1</option>
                         <option value="">2</option>
                         <option value="">3</option>
@@ -96,7 +100,7 @@
                 </div>
             </li>
             <li>
-                <div class="img">
+                <div class="img"><!--seocnd product information-->
                     <img src="images/cart2.png" alt="">
                     <p>
                         <img src="images/Group67.png" alt="">
@@ -106,7 +110,7 @@
                 <div class="text">
                     <h4>Chilli & Lime Aioli 240g</h4>
                     <p>Qty</p>
-                    <select name="">
+                    <select name=""><!--change the number of the product-->
                         <option value="">1</option>
                         <option value="">2</option>
                         <option value="">3</option>
@@ -117,9 +121,10 @@
                 </div>
             </li>
         </ul>
-        <p class="title">Total (before delivery): <span>AUD$21.49</span></p>
-        <a class="goShop" href="payment.html">View bag & checkout</a>
+        <p class="title">Total (before delivery): <span>AUD$21.49</span></p><!--total price-->
+        <a class="goShop" href="payment.html">View bag & checkout</a><!--link to the payment page-->
     </div>
+    <!--login part-->
     <section>
         <div class="login_box">
             <div class="login_box_login">
@@ -134,7 +139,7 @@
                         <input type="text" name="">
                     </label>
                     <a href="">Forgot Your Password?</a>
-                    <button>SUBMIT</button>
+                    <button>SUBMIT</button><!--button submit-->
                 </form>
             </div>
             <div class="login_box_register">
@@ -146,5 +151,6 @@
     </section>
 
 </body>
+<!--link to the js file-->
 <script src="script.js"></script>
 </html>
