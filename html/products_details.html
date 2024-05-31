@@ -242,4 +242,57 @@
     </footer>
 </body>
 <script src="script.js"></script>
+
+<script>
+    var cartList = document.getElementById('cart-list');
+    let success_shop = document.querySelector('.success_shop');
+
+    var commodityListItem = document.querySelector('.details_1 .box');
+
+    var addToCartLink = commodityListItem.querySelector('button');
+
+    addToCartLink.addEventListener('click', function (event) {
+        event.preventDefault();
+        success_shop.style.display = 'flex';
+        setTimeout(function () {
+            success_shop.style.display = 'none';
+        }, 1000);
+        var productName = commodityListItem.querySelector('h3').textContent.trim();
+        var productPrice = commodityListItem.querySelector('.price').textContent.trim();
+        var productImg = commodityListItem.querySelector('.left img').src;
+        console.log(productImg);
+
+        var newCartItem = document.createElement('li');
+        newCartItem.innerHTML = `
+            <div class="img">
+                <img src="${productImg}" alt="">
+<!--                <img src="images/pro1.png" alt=""> -->
+                <p>${productName}</p>
+            </div>
+            <div class="text">
+                <h4>${productName}</h4>
+                <p>Qty</p>
+                <select name="quantity">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                </select>
+<!--                <span class="price">${productPrice}</span>  -->
+<!--                <a href="javascript:void(0);" class="remove-from-cart">Remove</a>  -->
+            </div>
+        `;
+
+        cartList.querySelector('ul').appendChild(newCartItem);
+
+        /*var removeLink = newCartItem.querySelector('.remove-from-cart');
+        removeLink.addEventListener('click', function(event) {
+            event.preventDefault();
+            cartList.removeChild(newCartItem);
+        });*/
+    });
+</script>
+
 </html>
