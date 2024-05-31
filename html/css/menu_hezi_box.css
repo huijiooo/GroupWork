@@ -1,0 +1,30 @@
+.menu_hezi_box {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    padding: 20px;
+    background-color: #EDD7B2;
+    width: 200px;
+    z-index: 9999;
+    animation-name: buttonAnimal2;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+}
+
+.menu_hezi_box .cha {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.menu_hezi_box .title {
+    padding-top: 40px;
+    width: 100%;
+    border-bottom: #7B4A00 1px solid;
+}
+
+.menu_hezi_box .title1 {
+    width: 80%;
+}
