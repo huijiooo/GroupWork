@@ -1161,3 +1161,261 @@ h2.title_h2::before {
 .payment_nav li img {
     width: 100%;
 }
+.payment_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.payment_box .left {
+    width: 80%;
+}
+
+.payment_box .express h4 {
+    text-align: center;
+}
+
+.payment_box .left h3 {}
+
+.payment_box .express .icon_box {
+    border: 1px solid #000000;
+    padding: 15px;
+    margin: 15px 0;
+    display: flex;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.payment_box .express h5 {
+    text-align: center;
+    position: relative;
+}
+
+.payment_box .express h5::after {
+    width: 47%;
+    content: "";
+    display: block;
+    height: 1px;
+    background: #000000;
+    position: absolute;
+    left: 0;
+    top: 9px;
+}
+
+.payment_box .express h5::before {
+    width: 47%;
+    content: "";
+    display: block;
+    height: 1px;
+    background: #000000;
+    position: absolute;
+    right: 0;
+    top: 9px;
+}
+
+.payment_box .express label {
+    display: block;
+    margin: 5px 0;
+}
+
+.payment_box .express label span {
+    display: block;
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+.payment_box .express input {
+    width: 100%;
+    color: #955B03;
+    border: 1px solid #000000;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 5px 0;
+}
+
+.payment_box .express .input2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 15px;
+}
+
+.payment_box .express .input3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 15px;
+}
+
+.payment_box .right {
+    width: 80%;
+}
+
+
+.payment_box .right li {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.payment_box .right li .img {
+    border: 1px solid #222222;
+    text-align: center;
+    /* padding: 10px; */
+    width: 43%;
+}
+
+.payment_box .right li .img>img {
+    height: 120px;
+}
+
+.payment_box .right li .text {
+    width: 48%;
+    border-bottom: 1px solid #222222;
+}
+
+.payment_box .right li .text h4 {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.payment_box .right li .text p {
+    margin-top: 20px;
+}
+
+.payment_box .right li .text select {
+    width: 50px;
+    margin: 10px 0;
+}
+
+
+.payment_box .right li .text .price {
+    text-align: right;
+    font-size: 15px;
+}
+
+.payment_box .right p.title {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 14px;
+    border-bottom: 1px solid #222222;
+}
+
+.payment_box .right p.title span {
+    float: right;
+}
+
+.payment_box .right a.goShop {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    background: #ffc83b;
+    border: none;
+    box-shadow: 0 2px 10px #b1b1b1;
+    cursor: pointer;
+}
+
+.payment_box .right a.goShop:hover {
+    opacity: 0.6;
+}
+
+.payment_box .information a.goShop {
+    width: 32%;
+    height: 40px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-top: 10px;
+    background: #ffc83b;
+    border: none;
+    box-shadow: 0 2px 10px #b1b1b1;
+    cursor: pointer;
+}
+
+.payment_box .information a.goShop:hover {
+    opacity: 0.6;
+}
+
+.payment_box .information {
+    position: relative;
+}
+
+.payment_box .information h4 {
+    font-size: 15px;
+    font-weight: normal;
+    margin: 20px 0 10px;
+}
+
+.payment_box .information .input {
+    border: 1px solid #000000;
+    height: 40px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment_box .information .input input {
+    color: #955B03;
+    width: 70%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.payment_box .information .input a {
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+    line-height: 40px;
+    font-size: 14px;
+    color: #955B03;
+}
+
+.payment_box .information .method {
+    border: 1px solid #000000;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.payment_box .information .method input {
+    margin-right: 15px;
+}
+
+
+.payment_box .information .method .textInput p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.payment_box .information .method .textInput em {
+    color: #955B03;
+    font-size: 12px;
+    font-style: normal;
+}
+
+.payment_box .information a.return {
+    position: absolute;
+    color: #955B03;
+    bottom: 20px;
+    font-size: 14px;
+    left: 0;
+}
+
+.payment_box .information i {
+    color: #955B03;
+    font-size: 12px;
+    font-style: normal;
+    margin-top: -10px;
+    display: block;
+}
