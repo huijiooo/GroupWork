@@ -983,3 +983,140 @@ h2.title_h2::before {
 .register_box .right .item {
     margin-bottom: 10px;
 }
+/*myInfo.html*/
+.myInfo_box {
+    width: 100vw;
+    margin: 20px auto;
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.myInfo_box .left {
+    background: #fee7c1;
+    width: 80vw;
+    border: 2px solid #000000;
+    height: 305px;
+}
+
+.myInfo_box .left>img {
+    display: block;
+    margin: 30px auto 10px;
+}
+
+.myInfo_box .left h3 {
+    color: #4D4537;
+    text-align: center;
+}
+
+.myInfo_box .left p {
+    color: #535050;
+    text-align: center;
+    font-size: 13px;
+    margin: 10px auto 15px;
+}
+
+.myInfo_box .left a {
+    color: #535050;
+    border-top: 2px solid #000000;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.myInfo_box .left a.xz {
+    background: #ffc83b;
+}
+
+.myInfo_box .left a img {
+    margin: 0 38px;
+}
+
+
+.myInfo_box .right {
+    margin-top: 10px;
+    width: 80vw;
+}
+
+.myInfo_box .right h3 {
+    font-size: 27px;
+}
+
+.myInfo_box .right input {
+    color: #535050;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000000;
+    width: 100%;
+    font-size: 15px;
+    margin: 13px 0;
+    padding: 5px;
+}
+
+.myInfo_box .right>p {
+    margin: 15px 0 30px;
+    display: flex;
+}
+
+.myInfo_box .right>p em {
+    color: #000000;
+    font-style: normal;
+    font-weight: bold;
+    width: 160px;
+}
+
+.myInfo_box .right>p span {
+    color: #535050;
+
+}
+
+.myInfo_box .right>p span a {
+    margin-left: 200px;
+    color: #535050;
+}
+
+.history_box {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.history_box .item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.history_box img {
+    border: 1px solid #000000;
+    width: 120px;
+    height: 120px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.history_box .text {
+    width: calc(100% - 140px);
+}
+
+.history_box p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.history_box span {
+    font-size: 12px;
+    display: block;
+}
+
+
+.history_box .price {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 14px;
+}
