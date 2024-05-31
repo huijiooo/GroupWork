@@ -550,3 +550,146 @@ h2.title_h2::before {
     opacity: .5;
     transition: .7s;
 }
+/*products_details.html*/
+
+.details_1 .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    /* justify-content: space-between; */
+    /* gap: 40px; */
+}
+
+.details_1 .box .left {
+    width: 80vw;
+    border: 2px solid #222222;
+    padding: 20px;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+.details_1 .box .left img {
+    width: 100%;
+}
+
+.details_1 .box .right {
+    width: 80vw;
+}
+
+.details_1 .box h3 {
+    width: 80vw;
+    font-size: 20px;
+}
+
+.details_1 .box ul.tt {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 80vw;
+    margin: 20px 0;
+}
+
+.details_1 .box li {
+    background: #febd03;
+    display: inline-block;
+    gap: 10px;
+    align-items: center;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+.details_1 .box li img {
+    width: 44px;
+}
+
+
+.details_1 .box .text p {
+    color: #B06A00;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+
+.details_1 .box .pp {
+    display: flex;
+    margin: 20px 0;
+    gap: 50px;
+}
+
+.details_1 .box .pp .price {
+    font-size: 24px;
+    color: #6A4001;
+}
+
+.details_1 .box .pp button {
+    background: #feb700;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 22px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.details_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+.details_2 .left {
+    width: 80%;
+}
+
+.details_2 .left h4 {
+    font-size: 30px;
+}
+
+.details_2 .left ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.details_2 .left li {
+    text-align: center;
+    width: 30%;
+}
+
+.details_2 .left li img {
+    width: 100%;
+}
+
+.details_2 .left li p {
+    font-size: 10px;
+    color: #6A4001;
+}
+
+.details_2 .right {
+    width: 80%;
+    border-bottom: 2px solid #222222;
+    /* padding-left: 40px; */
+}
+
+.details_2 .right h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.details_2 .right p {
+    color: #7B4A00;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.details_2 .right h4.mt100 {
+    margin-top: 10px;
+}
+
+
