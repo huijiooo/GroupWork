@@ -319,6 +319,7 @@ img.partition {
 .choose_us h2 {
     width: 100%;
     font-size: 50px;
+    font-family:Poppins
 }
 .choose_us img {
     width: 60%;
@@ -326,6 +327,7 @@ img.partition {
 .choose_us p {
     font-weight: bold;
     font-size: 15px;
+    font-family:Poppins
 }
 .australis {
     display: flex;
@@ -339,12 +341,14 @@ img.partition {
 .australis .center h3 {
     font-size: 40px;
     padding: 20px 0;
+    font-family:Poppins
 }
 .australis .center p {
     color: #955d08;
     font-size: 26px;
     font-weight: bold;
     text-align: center;
+    font-family:Poppins
 }
 .australis .center a {
     display: block;
