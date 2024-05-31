@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .mobile_box {
     display: none !important;
 }
@@ -256,12 +258,14 @@ footer {
 }
 .gourment .text h2 {
     font-size: 50px;
-    letter-spacing: 5px;
+    letter-spacing: 1px;
+    font-family:Poppins
 }
 .gourment .text p {
     color: #955D08;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
+    font-family:Poppins
 }
 .gourment .text a.more {
     background: #feb700;
